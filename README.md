@@ -87,7 +87,7 @@ Upload `paper/Main.tex` and `paper/Main.bib` as an Overleaf overlay, or sync thi
   author = {Gholipour, Hamed and Bozorgnia, Farid and Mohammadigheymasi, Hamzeh
             and Proen{\c{c}}a, Hugo and Neves, Jo{\~a}o and Challenger, Moharram},
   year   = {2026},
-  url    = {https://github.com/micss-lab/IPQSSL}
+  url    = {https://github.com/furkanpolaat/IPQSSL}
 }
 ```
 
