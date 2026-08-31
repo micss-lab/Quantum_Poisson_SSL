@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "IPQSSL: Quantum-Informed Regularized Poisson Learning"
+message: If you use this software, please cite it and the accompanying paper.
+type: software
+authors:
+  - family-names: Gholipour
+    given-names: Hamed
+  - family-names: Bozorgnia
+    given-names: Farid
+  - family-names: Mohammadigheymasi
+    given-names: Hamzeh
+  - family-names: Proença
+    given-names: Hugo
+  - family-names: Neves
+    given-names: João
+  - family-names: Challenger
+    given-names: Moharram
+repository-code: https://github.com/micss-lab/IPQSSL
+license: Apache-2.0
+year: 2026

@@ -1,0 +1,30 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+data/
+*.npz
+*.npy
+*.pkl
+.ipynb_checkpoints/
+.pytest_cache/
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.pdf
+
+# Local drafts; the released overlay lives in paper/
+/Main.tex
+/Main 2.tex
+/Acrolist.tex
+/Main.bib
