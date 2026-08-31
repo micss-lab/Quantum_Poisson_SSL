@@ -12,8 +12,7 @@ Lab affiliation: [MICSS Lab](https://github.com/micss-lab) (University of Antwer
 
 | Path | Role |
 | --- | --- |
-| `src/run_published_table.py` | Table runner for the low-label experiment (`tab:low-label-results`) |
-| `paper/` | Overleaf-ready manuscript (`Main.tex`, `Main.bib`) |
+| `src/run_published_table.py` | Table runner for the low-label experiment |
 | `requirements.txt` | Python dependencies |
 
 The runner evaluates four methods on Iris, Wine, Breast Cancer, Heart Disease, German Credit, Optdigits, and Cora:
@@ -60,7 +59,7 @@ python src/run_published_table.py --datasets optdigits cora
 python src/run_published_table.py --backend pennylane --seeds 2
 ```
 
-The script prints LaTeX rows ready to paste into `tab:low-label-results` and writes per-seed accuracies to an `.npz` file for Holm-corrected paired tests.
+The script prints LaTeX rows for the low-label results table and writes per-seed accuracies to an `.npz` file for Holm-corrected paired tests.
 
 ### Data
 
@@ -75,11 +74,7 @@ Cora uses its intrinsic citation graph (symmetrized, self-loops removed, largest
 
 `run_published_table.py` implements the Section 4 table protocol with the defaults in `CONFIG`. It will not reproduce published numbers exactly unless those constants, loaders, graph construction, and the seed protocol match the runners that generated the manuscript table. Use the published Iris and Wine Original-Poisson rows as a consistency check before trusting a full sweep.
 
-Pendigits is not in this suite. If the manuscript keeps a Pendigits headline, regenerate that row with a dedicated loader.
-
-## Overleaf
-
-Upload `paper/Main.tex` and `paper/Main.bib` as an Overleaf overlay, or sync this GitHub repository into Overleaf (`New Project` → `Import from GitHub`). If `fig3_depth_scaling_diagnostics.png` and `fig4_width_scaling_diagnostics.png` are missing, the manuscript still compiles: those figures are skipped until the PNG files are added next to `Main.tex`.
+Pendigits is not in this suite. If you need that dataset, add a dedicated loader.
 
 ## Citation
 
