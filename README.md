@@ -4,7 +4,9 @@ Reference implementation for **Improved Poisson Quantum Semi-Supervised Learning
 
 Paper: *Quantum-Informed Regularized Poisson Learning for Graph-Based Semi-Supervised Classification*
 
-Lab: [MICSS Lab](https://github.com/micss-lab) (University of Antwerp)
+Code: [https://github.com/furkanpolaat/IPQSSL](https://github.com/furkanpolaat/IPQSSL)
+
+Lab affiliation: [MICSS Lab](https://github.com/micss-lab) (University of Antwerp)
 
 ## What this repo contains
 

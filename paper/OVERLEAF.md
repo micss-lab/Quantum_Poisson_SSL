@@ -15,9 +15,8 @@ The manuscript compiles without the PNGs. Placeholder boxes appear until the fig
 ## What this overlay already fixes
 
 1. Duplicate `\usepackage{natbib}` removed. Keep only `\usepackage[numbers]{natbib}`.
-2. Code-availability paragraph now points to the live repository
-   `https://github.com/furkanpolaat/IPQSSL`. After an org admin creates
-   `micss-lab/IPQSSL` and the transfer completes, change that one URL.
+2. Code-availability paragraph points to
+   `https://github.com/furkanpolaat/IPQSSL`.
 3. Low-label table no longer prints `\mathbf{??}` for missing standard deviations. Cells show the published means only. The caption no longer claims standard deviations that are not in the source.
 4. Missing diagnostic figures no longer abort compilation.
 
