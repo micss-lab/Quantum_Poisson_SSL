@@ -4,7 +4,7 @@ Reference implementation for **Improved Poisson Quantum Semi-Supervised Learning
 
 Paper: *Quantum-Informed Regularized Poisson Learning for Graph-Based Semi-Supervised Classification*
 
-Code: [https://github.com/furkanpolaat/IPQSSL](https://github.com/furkanpolaat/IPQSSL)
+Code: [https://github.com/micss-lab/Quantum_Poisson_SSL](https://github.com/micss-lab/Quantum_Poisson_SSL)
 
 Lab affiliation: [MICSS Lab](https://github.com/micss-lab) (University of Antwerp)
 
@@ -84,7 +84,7 @@ Pendigits is not in this suite. If you need that dataset, add a dedicated loader
   author = {Gholipour, Hamed and Bozorgnia, Farid and Mohammadigheymasi, Hamzeh
             and Proen{\c{c}}a, Hugo and Neves, Jo{\~a}o and Challenger, Moharram},
   year   = {2026},
-  url    = {https://github.com/furkanpolaat/IPQSSL}
+  url    = {https://github.com/micss-lab/Quantum_Poisson_SSL}
 }
 ```
 
