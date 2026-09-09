@@ -15,15 +15,6 @@ print(results["iris_mean"])
 print(results["iris_std"])
 
 
-The console also prints ready-to-paste LaTeX rows of the form
-
-
-\multirow{4}{*}{Iris}
- & Quadratic-Reg.\ Poisson & $0.xxx \pm 0.xxx$ & ... \\
- & Original Poisson        & $0.xxx \pm 0.xxx$ & ... \\
- & IPL ($\mu=0$)           & $0.xxx \pm 0.xxx$ & ... \\
- & \textsc{IPQSSL}         & $\mathbf{0.xxx \pm 0.xxx}$ & ... \\
-
 
 Means and sample standard deviations are rounded to three decimal places. The highest displayed mean for each dataset and label budget is bolded; ties at the displayed precision are bolded jointly.
 
